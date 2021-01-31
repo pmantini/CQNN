@@ -17,6 +17,13 @@ for details.
 This sample code takes two well known architectures: Alexnet and Resnet, and creates quadratic variants. The code can be 
 to train on two datasets Cifar10 and Cifar100
 
+### Code & Files:
+1. Application: The main file to run the training and testing
+2. linear: This package has the linear variants of alexnet and resnet architectures.
+3. quadratic: This package has the quadratic variants of the alexnet and resnet architectures.
+4. quadratic/qconv2d.py: This module has the implmentation of the quadratic convolutional layer. It takes as input a batch 
+   of images and computes the quadratic output. 
+
 ### Requirements:
 The code is tested in an Ubuntu (18.04) environment. The following software and modules are required (See requirements.txt)
 1. Python 2.7
@@ -25,8 +32,7 @@ The code is tested in an Ubuntu (18.04) environment. The following software and 
 4. tensorflow-gpu 2.0.0
 5. keras 2.3.0
 
-
-### Installation
+### Installation:
 Using virtual environent.
 1. Create virtual environent.
 > \$ virtualvenv venv
@@ -35,7 +41,7 @@ Using virtual environent.
 3. Install packages
 > \$ pip install -r requirements.txt
 
-### Traininig & Evaluation
+### Traininig & Evaluation:
 1. To train a CNN variant (Linear convolutional layers) on the cifar100 dataset
     1. Alexnet
     > \$ python Application.py -d cifar100 -m alexnet -n linear

@@ -37,8 +37,15 @@ Using virtual environent.
 
 ### Traininig & Evaluation
 1. To train a CNN variant (Linear convolutional layers) on the cifar100 dataset
-> \$ python Application -d cifar100 -m alexnet -n linear
+    1. Alexnet
+    > \$ python Application.py -d cifar100 -m alexnet -n linear
+    2. Resnet
+    > \$ python Application.py -d cifar100 -m resnet -n linear 
 2. To train a CQNN variant (Quadratic convolutional layers) on the cifar100 dataset
-> \$ python Application -d cifar100 -m alexnet -n quadratic
+    1. Alexnet
+    > \$ python Application.py -d cifar100 -m alexnet -n quadratic
+    2. Resnet
+    > \$ python Application.py -d cifar100 -m resnet -n quadratic
+
 
 

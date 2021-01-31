@@ -17,7 +17,7 @@ for details.
 This sample code takes two well known architectures: Alexnet and Resnet, and creates quadratic variants. The code can be 
 to train on two datasets Cifar10 and Cifar100
 
-###Requirements:
+### Requirements:
 The code is tested in an Ubuntu (18.04) environment. The following software and modules are required (See requirements.txt)
 1. Python 2.7
 2. numpy 1.16.6
@@ -26,7 +26,7 @@ The code is tested in an Ubuntu (18.04) environment. The following software and 
 5. keras 2.3.0
 
 
-###Installation
+### Installation
 Using virtual environent.
 1. Create virtual environent.
 > \$ virtualvenv venv
